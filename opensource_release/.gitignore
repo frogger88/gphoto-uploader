@@ -1,0 +1,23 @@
+# Python .gitignore
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+bin/
+lib64/
+lib/
+include/
+
+# Application Specific
+token.json
+client_secret.json
+transfer_state.db
+transfer_log.txt
+processed_folders.json
+*.bak
+
+# OS Specific
+.DS_Store
+Thumbs.db
